@@ -9,7 +9,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:http/http.dart' as http;
-import 'package:image/image.dart' as image;
 import 'package:path_provider/path_provider.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
@@ -51,10 +50,10 @@ class ReceivedNotification {
 String? selectedNotificationPayload;
 
 /// A notification action which triggers a url launch event
-const String urlLaunchActionId = 'id_1';
+const String urlLaunchActionId = 'id1';
 
 /// A notification action which triggers a App navigation event
-const String navigationActionId = 'id_3';
+const String navigationActionId = 'id3';
 
 /// Defines a iOS/MacOS notification category for text input actions.
 const String darwinNotificationCategoryText = 'textCategory';
